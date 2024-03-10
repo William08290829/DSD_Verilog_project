@@ -1,0 +1,396 @@
+
+*** Running vivado
+    with args -log VGAExample.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source VGAExample.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source VGAExample.tcl -notrace
+Command: synth_design -top VGAExample -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 52080
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1037.113 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'VGAExample' [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/final_pro.v:2]
+	Parameter logo_length bound to: 10'b0010101001 
+	Parameter logo_height bound to: 10'b0001001110 
+	Parameter init bound to: 3'b000 
+	Parameter countdown bound to: 3'b001 
+	Parameter diff_1 bound to: 3'b010 
+	Parameter diff_2 bound to: 3'b011 
+	Parameter game_end bound to: 3'b100 
+INFO: [Synth 8-6157] synthesizing module 'dcm_25M' [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/dcm_25M_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dcm_25M' (1#1) [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/dcm_25M_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'peashooter_big' [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/peashooter_big_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'peashooter_big' (2#1) [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/peashooter_big_stub.v:6]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (14) of module 'peashooter_big' [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/final_pro.v:36]
+INFO: [Synth 8-6157] synthesizing module 'wall_nut_big' [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/wall_nut_big_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'wall_nut_big' (3#1) [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/wall_nut_big_stub.v:6]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (14) of module 'wall_nut_big' [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/final_pro.v:37]
+INFO: [Synth 8-6157] synthesizing module 'sun' [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/sun_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'sun' (4#1) [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/sun_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'peashooter' [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/peashooter_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'peashooter' (5#1) [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/peashooter_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'wall_nut' [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/wall_nut_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'wall_nut' (6#1) [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/wall_nut_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'pea' [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/pea_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pea' (7#1) [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/pea_stub.v:6]
+WARNING: [Synth 8-689] width (12) of port connection 'addra' does not match port width (11) of module 'pea' [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/final_pro.v:41]
+INFO: [Synth 8-6157] synthesizing module 'zombie' [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/zombie_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zombie' (8#1) [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/zombie_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'buckethead_zombie' [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/buckethead_zombie_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'buckethead_zombie' (9#1) [C:/Users/leeea/final_project/final_project.runs/synth_1/.Xil/Vivado-39896-LAPTOP-ST2QD1SE/realtime/buckethead_zombie_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'divider2hz' [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/divider_2hz.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'divider2hz' (10#1) [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/divider_2hz.v:21]
+INFO: [Synth 8-251] fjweu [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/final_pro.v:90]
+INFO: [Synth 8-251] 1213 [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/final_pro.v:96]
+INFO: [Synth 8-6157] synthesizing module 'divider_40hz' [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/divider_40hz.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'divider_40hz' (11#1) [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/divider_40hz.v:1]
+INFO: [Synth 8-6157] synthesizing module 'divider_8hz' [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/divider_8hz.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'divider_8hz' (12#1) [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/divider_8hz.v:1]
+INFO: [Synth 8-6157] synthesizing module 'debouncer' [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/debouncer.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'debouncer' (13#1) [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/debouncer.v:21]
+INFO: [Synth 8-6157] synthesizing module 'change_7seg' [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/change_7seg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'change_7seg' (14#1) [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/change_7seg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'seven_seg_display' [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/seven_seg_display.v:23]
+INFO: [Synth 8-6157] synthesizing module 'divider_20hz' [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/divider_20hz.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'divider_20hz' (15#1) [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/divider_20hz.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'seven_seg_display' (16#1) [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/seven_seg_display.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keyboard' [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/keyboard.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'keyboard' (17#1) [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/keyboard.v:2]
+INFO: [Synth 8-6157] synthesizing module 'SyncGeneration' [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/SyncGeneration.v:2]
+	Parameter H_SP_END bound to: 96 - type: integer 
+	Parameter H_BP_END bound to: 144 - type: integer 
+	Parameter H_FP_START bound to: 785 - type: integer 
+	Parameter H_TOTAL bound to: 800 - type: integer 
+	Parameter V_SP_END bound to: 2 - type: integer 
+	Parameter V_BP_END bound to: 35 - type: integer 
+	Parameter V_FP_START bound to: 516 - type: integer 
+	Parameter V_TOTAL bound to: 525 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SyncGeneration' (18#1) [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/SyncGeneration.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'VGAExample' (19#1) [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/final_pro.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1132.590 ; gain = 95.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1132.590 ; gain = 95.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1132.590 ; gain = 95.477
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.092 . Memory (MB): peak = 1132.590 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/dcm_25M/dcm_25M/dcm_25M_in_context.xdc] for cell 'u0'
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/dcm_25M/dcm_25M/dcm_25M_in_context.xdc:1]
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/dcm_25M/dcm_25M/dcm_25M_in_context.xdc:4]
+Finished Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/dcm_25M/dcm_25M/dcm_25M_in_context.xdc] for cell 'u0'
+Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/peashooter_big/peashooter_big/peashooter_big_in_context.xdc] for cell 'big_icon_pea'
+Finished Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/peashooter_big/peashooter_big/peashooter_big_in_context.xdc] for cell 'big_icon_pea'
+Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/wall_nut_big/wall_nut_big/wall_nut_big_in_context.xdc] for cell 'big_icon_wall'
+Finished Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/wall_nut_big/wall_nut_big/wall_nut_big_in_context.xdc] for cell 'big_icon_wall'
+Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/sun/sun/sun_in_context.xdc] for cell 'sunny'
+Finished Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/sun/sun/sun_in_context.xdc] for cell 'sunny'
+Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/peashooter/peashooter/peashooter_in_context.xdc] for cell 'shooter'
+Finished Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/peashooter/peashooter/peashooter_in_context.xdc] for cell 'shooter'
+Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/wall_nut/wall_nut/wall_nut_in_context.xdc] for cell 'wall'
+Finished Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/wall_nut/wall_nut/wall_nut_in_context.xdc] for cell 'wall'
+Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/zombie/zombie/zombie_in_context.xdc] for cell 'u1'
+Finished Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/zombie/zombie/zombie_in_context.xdc] for cell 'u1'
+Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/buckethead_zombie/buckethead_zombie/buckethead_zombie_in_context.xdc] for cell 'u3'
+Finished Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/buckethead_zombie/buckethead_zombie/buckethead_zombie_in_context.xdc] for cell 'u3'
+Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/pea/pea/pea_in_context.xdc] for cell 'u4'
+Finished Parsing XDC File [c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/pea/pea/pea_in_context.xdc] for cell 'u4'
+Parsing XDC File [C:/Users/leeea/final_project/final_project.srcs/constrs_1/new/pin.xdc]
+WARNING: [Vivado 12-507] No nets matched 'ps2_clk_IBUF'. [C:/Users/leeea/final_project/final_project.srcs/constrs_1/new/pin.xdc:96]
+Finished Parsing XDC File [C:/Users/leeea/final_project/final_project.srcs/constrs_1/new/pin.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/leeea/final_project/final_project.srcs/constrs_1/new/pin.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/VGAExample_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/leeea/final_project/final_project.srcs/constrs_1/new/pin.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/VGAExample_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/VGAExample_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1232.426 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 1232.426 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1232.426 ; gain = 195.312
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1232.426 ; gain = 195.312
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/dcm_25M/dcm_25M/dcm_25M_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/leeea/final_project/final_project.srcs/sources_1/ip/dcm_25M/dcm_25M/dcm_25M_in_context.xdc, line 6).
+Applied set_property DONT_TOUCH = true for u0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for big_icon_pea. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for big_icon_wall. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for sunny. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for shooter. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for wall. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u4. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1232.426 ; gain = 195.312
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'cs_reg' in module 'debouncer'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE3 |                              000 |                              000
+                  iSTATE |                              001 |                              001
+                 iSTATE0 |                              010 |                              010
+                 iSTATE1 |                              011 |                              011
+                 iSTATE2 |                              100 |                              100
+                 iSTATE4 |                              101 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cs_reg' using encoding 'sequential' in module 'debouncer'
+WARNING: [Synth 8-327] inferring latch for variable 'peashooter3_area_reg' [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/final_pro.v:2095]
+WARNING: [Synth 8-327] inferring latch for variable 'peashooter2_area_reg' [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/final_pro.v:2092]
+WARNING: [Synth 8-327] inferring latch for variable 'peashooter1_area_reg' [C:/Users/leeea/final_project/final_project.srcs/sources_1/new/final_pro.v:2089]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:29 . Memory (MB): peak = 1232.426 ; gain = 195.312
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 116   
+	   2 Input    5 Bit       Adders := 4     
+	   2 Input    4 Bit       Adders := 10    
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 7     
+	               10 Bit    Registers := 60    
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 10    
+	                2 Bit    Registers := 22    
+	                1 Bit    Registers := 14    
++---Muxes : 
+	   6 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 7     
+	   2 Input   16 Bit        Muxes := 1     
+	  13 Input   16 Bit        Muxes := 1     
+	  46 Input   12 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 8     
+	   2 Input   10 Bit        Muxes := 74    
+	   6 Input   10 Bit        Muxes := 34    
+	   7 Input   10 Bit        Muxes := 4     
+	   2 Input    8 Bit        Muxes := 3     
+	   5 Input    7 Bit        Muxes := 2     
+	   6 Input    5 Bit        Muxes := 3     
+	   2 Input    5 Bit        Muxes := 6     
+	   5 Input    4 Bit        Muxes := 2     
+	  11 Input    4 Bit        Muxes := 2     
+	   8 Input    4 Bit        Muxes := 1     
+	   6 Input    4 Bit        Muxes := 6     
+	   2 Input    4 Bit        Muxes := 3     
+	  21 Input    4 Bit        Muxes := 1     
+	  17 Input    4 Bit        Muxes := 2     
+	   6 Input    3 Bit        Muxes := 5     
+	   2 Input    3 Bit        Muxes := 36    
+	   6 Input    2 Bit        Muxes := 10    
+	   2 Input    2 Bit        Muxes := 9     
+	   3 Input    2 Bit        Muxes := 2     
+	   6 Input    1 Bit        Muxes := 109   
+	   2 Input    1 Bit        Muxes := 173   
+	   3 Input    1 Bit        Muxes := 8     
+	  13 Input    1 Bit        Muxes := 2     
+	  10 Input    1 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 7     
+	  18 Input    1 Bit        Muxes := 2     
+	  17 Input    1 Bit        Muxes := 5     
+	  20 Input    1 Bit        Muxes := 1     
+	  15 Input    1 Bit        Muxes := 4     
+	  14 Input    1 Bit        Muxes := 2     
+	  12 Input    1 Bit        Muxes := 2     
+	  21 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 8     
+	  19 Input    1 Bit        Muxes := 1     
+	  16 Input    1 Bit        Muxes := 2     
+	   7 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:01:02 . Memory (MB): peak = 1232.426 ; gain = 195.312
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:01:12 . Memory (MB): peak = 1232.426 ; gain = 195.312
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:01:23 . Memory (MB): peak = 1354.215 ; gain = 317.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:01:27 . Memory (MB): peak = 1386.758 ; gain = 349.645
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:51 ; elapsed = 00:01:32 . Memory (MB): peak = 1393.574 ; gain = 356.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:51 ; elapsed = 00:01:32 . Memory (MB): peak = 1393.574 ; gain = 356.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:51 ; elapsed = 00:01:33 . Memory (MB): peak = 1393.574 ; gain = 356.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:51 ; elapsed = 00:01:33 . Memory (MB): peak = 1393.574 ; gain = 356.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:51 ; elapsed = 00:01:33 . Memory (MB): peak = 1393.574 ; gain = 356.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:51 ; elapsed = 00:01:33 . Memory (MB): peak = 1393.574 ; gain = 356.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------+----------+
+|      |BlackBox name     |Instances |
++------+------------------+----------+
+|1     |dcm_25M           |         1|
+|2     |peashooter_big    |         1|
+|3     |wall_nut_big      |         1|
+|4     |sun               |         1|
+|5     |peashooter        |         1|
+|6     |wall_nut          |         1|
+|7     |pea               |         1|
+|8     |zombie            |         1|
+|9     |buckethead_zombie |         1|
++------+------------------+----------+
+
+Report Cell Usage: 
++------+------------------+------+
+|      |Cell              |Count |
++------+------------------+------+
+|1     |buckethead_zombie |     1|
+|2     |dcm_25M           |     1|
+|3     |pea               |     1|
+|4     |peashooter        |     1|
+|5     |peashooter_big    |     1|
+|6     |sun               |     1|
+|7     |wall_nut          |     1|
+|8     |wall_nut_big      |     1|
+|9     |zombie            |     1|
+|10    |BUFG              |     3|
+|11    |CARRY4            |   573|
+|12    |LUT1              |   133|
+|13    |LUT2              |   972|
+|14    |LUT3              |   584|
+|15    |LUT4              |   820|
+|16    |LUT5              |   615|
+|17    |LUT6              |  1243|
+|18    |FDCE              |   880|
+|19    |FDPE              |   229|
+|20    |FDRE              |    71|
+|21    |LD                |     3|
+|22    |LDC               |    30|
+|23    |IBUF              |    16|
+|24    |OBUF              |    52|
++------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:51 ; elapsed = 00:01:33 . Memory (MB): peak = 1393.574 ; gain = 356.461
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:01:29 . Memory (MB): peak = 1393.574 ; gain = 256.625
+Synthesis Optimization Complete : Time (s): cpu = 00:00:51 ; elapsed = 00:01:33 . Memory (MB): peak = 1393.574 ; gain = 356.461
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.105 . Memory (MB): peak = 1393.574 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 606 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1393.574 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 33 instances were transformed.
+  LD => LDCE: 3 instances
+  LDC => LDCE: 30 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+58 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:01:44 . Memory (MB): peak = 1393.574 ; gain = 356.461
+INFO: [Common 17-1381] The checkpoint 'C:/Users/leeea/final_project/final_project.runs/synth_1/VGAExample.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file VGAExample_utilization_synth.rpt -pb VGAExample_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 16 13:51:56 2023...

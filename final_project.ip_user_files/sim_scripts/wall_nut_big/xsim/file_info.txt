@@ -1,0 +1,2 @@
+wall_nut_big.v,verilog,xil_defaultlib,../../../../final_project.srcs/sources_1/ip/wall_nut_big/sim/wall_nut_big.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

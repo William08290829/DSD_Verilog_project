@@ -1,0 +1,2 @@
+zombie.v,verilog,xil_defaultlib,../../../../final_project.srcs/sources_1/ip/zombie/sim/zombie.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

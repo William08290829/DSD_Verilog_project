@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Jun  2 17:46:27 2023
+# Process ID: 1956
+# Current directory: C:/Users/leeea/final_project/final_project.runs/wall_nut_big_synth_1
+# Command line: vivado.exe -log wall_nut_big.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source wall_nut_big.tcl
+# Log file: C:/Users/leeea/final_project/final_project.runs/wall_nut_big_synth_1/wall_nut_big.vds
+# Journal file: C:/Users/leeea/final_project/final_project.runs/wall_nut_big_synth_1\vivado.jou
+#-----------------------------------------------------------
+source wall_nut_big.tcl -notrace

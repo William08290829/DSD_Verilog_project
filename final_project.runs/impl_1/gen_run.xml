@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1686894597">
+  <File Type="BITSTR-BMM" Name="VGAExample_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="VGAExample_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="VGAExample_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="VGAExample_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="VGAExample.tcl"/>
+  <File Type="OPT-TIMING" Name="VGAExample_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="VGAExample_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="VGAExample_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="VGAExample_reports.tcl"/>
+  <File Type="OPT-DRC" Name="VGAExample_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="VGAExample.hwdef"/>
+  <File Type="PWROPT-DCP" Name="VGAExample_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="VGAExample_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="VGAExample_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="VGAExample_placed.dcp"/>
+  <File Type="PLACE-IO" Name="VGAExample_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="VGAExample_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="VGAExample_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="VGAExample_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="VGAExample_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="VGAExample_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="VGAExample_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="VGAExample_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="VGAExample_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="VGAExample.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="VGAExample_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="VGAExample_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="VGAExample_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="VGAExample.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="VGAExample_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="VGAExample_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="VGAExample_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="VGAExample_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="VGAExample_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="VGAExample_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="VGAExample_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="VGAExample.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="VGAExample_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="VGAExample_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="VGAExample_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="VGAExample_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="VGAExample_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="VGAExample_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="VGAExample_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="VGAExample_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="VGAExample_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="VGAExample_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="VGAExample_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="VGAExample_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="VGAExample_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="VGAExample_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="VGAExample_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="VGAExample_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="VGAExample_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="VGAExample_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="VGAExample_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="VGAExample_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="VGAExample_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="VGAExample.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="VGAExample_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="VGAExample.rbt"/>
+  <File Type="BITSTR-NKY" Name="VGAExample.nky"/>
+  <File Type="PDI-FILE" Name="VGAExample.pdi"/>
+  <File Type="RCFI_FILE" Name="VGAExample.rcfi"/>
+  <File Type="CFI_FILE" Name="VGAExample.cfi"/>
+  <File Type="RNPI_FILE" Name="VGAExample.rnpi"/>
+  <File Type="NPI_FILE" Name="VGAExample.npi"/>
+  <File Type="RBD_FILE" Name="VGAExample.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="VGAExample.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="VGAExample.sysdef"/>
+  <File Type="BG-BGN" Name="VGAExample.bgn"/>
+  <File Type="BG-DRC" Name="VGAExample.drc"/>
+  <File Type="RDI-RDI" Name="VGAExample.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/SyncGeneration.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/change_7seg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/debouncer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/divider_20hz.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/divider_2hz.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/divider_40hz.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/divider_8hz.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/keyboard.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/seven_seg_display.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/final_pro.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/peashooter_big.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/wall_nut_big.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/sun.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/peashooter.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/wall-nut.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/finalproject2.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/zombie.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/Buckethead_zombie.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/count_six.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/Pea.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="VGAExample"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/pin.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/pin.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="wall_nut_big"/>
+  <BlockFileSet Type="BlockSrcs" Name="peashooter_big"/>
+  <BlockFileSet Type="BlockSrcs" Name="dcm_25M"/>
+  <BlockFileSet Type="BlockSrcs" Name="sun"/>
+  <BlockFileSet Type="BlockSrcs" Name="pea"/>
+  <BlockFileSet Type="BlockSrcs" Name="wall_nut"/>
+  <BlockFileSet Type="BlockSrcs" Name="peashooter"/>
+  <BlockFileSet Type="BlockSrcs" Name="zombie"/>
+  <BlockFileSet Type="BlockSrcs" Name="buckethead_zombie"/>
+</GenRun>
